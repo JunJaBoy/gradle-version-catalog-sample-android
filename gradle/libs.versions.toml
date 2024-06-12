@@ -29,3 +29,6 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 
+[bundles]
+ui = ["androidx-core-ktx", "androidx-compose-bom", "androidx-ui"]
+test = ["junit", "androidx-junit", "androidx-ui-test-junit4"]
